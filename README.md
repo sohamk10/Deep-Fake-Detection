@@ -16,5 +16,4 @@ The first step in the network pipeline is Data Loading. Both the train and test 
 71 2 and trigger time initialized to 0. During training, if the validation loss increase from its previous
 72 loss, trigger time increases by 1, when the value of trigger time equals the patience, the training is
 73 stopped. Once our Network is fully trained, we now test it with our testing data and compute the loss
-74 and accuracy. We then perform the training and testing separately for Bicubic, Bilinear and Pixel
-75 Shuffle data and compute the accuracy.
+74 and accuracy. We then perform the training and testing separately for Bicubic, Bilinear and Pixel Shuffle data and compute the accuracy.
